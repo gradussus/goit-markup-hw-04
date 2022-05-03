@@ -28,6 +28,7 @@ p {
 img {
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 .centered {
 	margin-left: auto;
@@ -163,10 +164,6 @@ img {
 .benefits-list-item:not(:first-child) {
 	margin-left: 30px;
 }
-.benefits,
-.what-are-we-doing {
-	background-color: var(--white);
-}
 .benefits-title {
 	font-size: 14px;
 	line-height: 1.2;
@@ -235,6 +232,7 @@ img {
 	letter-spacing: 0.03em;
 	color: var(--white);
 	text-decoration: none;
+	display: block;
 	margin-bottom: 30px;
 }
 
@@ -250,9 +248,6 @@ img {
 }
 .address-list-item:not(:first-child) {
 	margin-top: 9px;
-}
-.address-list {
-	margin-top: 20px;
 }
 .address-footer:hover,
 .address-footer:focus,
