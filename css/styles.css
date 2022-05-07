@@ -108,10 +108,22 @@ img {
 .contacts-header-link:focus {
 	color: var(--accent-color);
 }
+.header-icon {
+	fill: currentColor;
+	margin-right: 10px;
+}
+.header-icon:hover,
+.header-icon:focus {
+	fill: var(--accent-color);
+}
 .hero {
-	background-color: var(--background-black);
 	padding-top: 200px;
 	padding-bottom: 200px;
+
+	background-image: linear-gradient(to right, rgba(47, 40, 50, 0.4), rgba(47, 40, 50, 0.4)), url(../images/bcg-img.jpg);
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .hero-title {
 	font-weight: 900;
@@ -137,6 +149,10 @@ img {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--white);
+	border: none;
+	padding: 10px 32px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 
 	cursor: pointer;
 
@@ -322,13 +338,48 @@ img {
 	border-left: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 }
-.mail-icon {
-	height: 12px;
-	width: 16px;
+.contacts-header-link {
+	display: flex;
+	align-items: center;
 }
-.mail-icon > use {
-	height: 12px;
+.header-icon {
 	width: 16px;
-	fill: red;
-	display: inline-flex;
+	height: 16px;
+}
+.benefits-icon {
+	width: 70px;
+	height: 70px;
+}
+.benefits-div {
+	background-color: var(--background-grey);
+	padding: 25px 100px;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+.social-icons-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.social-item {
+	width: 20px;
+	height: 20px;
+}
+.social-icon-link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	fill: #afb1b8;
+}
+.social-icon-link:hover {
+	background-color: var(--accent-color);
+	fill: #fff;
+}
+.social-icons-item:not(:last-child) {
+	margin-right: 10px;
 }
