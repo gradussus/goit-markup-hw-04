@@ -226,6 +226,7 @@ img {
 }
 .our-team-work-position {
 	color: var(--primary-grey);
+	margin-bottom: 16px;
 }
 .our-team-div {
 	padding-top: 30px;
@@ -360,6 +361,7 @@ img {
 	list-style: none;
 	display: flex;
 	justify-content: center;
+	align-content: center;
 }
 
 .social-item {
@@ -382,4 +384,7 @@ img {
 }
 .social-icons-item:not(:last-child) {
 	margin-right: 10px;
+}
+.social-icons-item {
+	display: flex;
 }
