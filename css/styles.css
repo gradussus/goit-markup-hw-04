@@ -317,3 +317,13 @@ img {
 	border-left: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 }
+.mail-icon {
+	height: 12px;
+	width: 16px;
+}
+.mail-icon > use {
+	height: 12px;
+	width: 16px;
+	fill: red;
+	display: inline-flex;
+}
