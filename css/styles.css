@@ -196,8 +196,7 @@ img {
 .what-are-we-doing-item:not(:first-child) {
 	margin-left: 30px;
 }
-.what-are-we-doing-title,
-.our-team-title {
+.secondary-title {
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
@@ -386,5 +385,22 @@ img {
 	margin-right: 10px;
 }
 .social-icons-item {
+	display: flex;
+}
+.team-card {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+.client-list{
+	display: flex;
+	list-style: none;
+}
+.client-icon{
+	height: 60px;
+	width: 106px;
+}
+.client-card{
+	width: 170px;
+	height: 92px;
 	display: flex;
 }
