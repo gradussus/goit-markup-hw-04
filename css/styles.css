@@ -33,6 +33,9 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+.main-nav-link.current{
+	color: var(--accent-color);
+}
 .container {
 	width: 1200px;
 	margin-left: auto;
@@ -47,9 +50,6 @@ img {
 }
 .header-section {
 	border-bottom: 1px solid #ececec;
-}
-.main-nav-link.current{
-	color: var(--accent-color);
 }
 .logo-header {
 	font-family: raleway, sans-serif;
@@ -233,6 +233,7 @@ img {
 .our-team-div {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background-color: var(--white);
 }
 .our-team-work-position,
 .our-team-name {
@@ -315,10 +316,6 @@ img {
 	margin-left: 30px;
 	margin-top: 30px;
 }
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 .project-name {
 	font-size: 18px;
 	line-height: 2;
@@ -349,7 +346,10 @@ img {
 	display: flex;
 	align-items: center;
 }
-
+.header-icon {
+	width: 16px;
+	height: 16px;
+}
 .benefits-icon {
 	width: 70px;
 	height: 70px;
@@ -414,6 +414,10 @@ img {
 .client-link:focus {
 	fill: var(--accent-color);
 	border: 1px solid var(--accent-color);
+}
+.client-icon{
+	width: 106px;
+	height: 60px;
 }
 .invite-title {
 	text-transform: uppercase;
