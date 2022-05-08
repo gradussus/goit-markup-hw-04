@@ -346,8 +346,12 @@ img {
 	display: flex;
 	align-items: center;
 }
-.header-icon {
+.header-icon.mail {
 	width: 16px;
+	height: 12px;
+}
+.header-icon.phone{
+	width: 10px;
 	height: 16px;
 }
 .benefits-icon {
